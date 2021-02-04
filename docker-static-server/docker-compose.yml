@@ -2,6 +2,6 @@ version: '2'
 services:
     my-server:
         build: .
-        image: my-server:{$IMG_VERSION}
+        image: my-server:$IMG_VERSION
         ports:
             - 80:80
