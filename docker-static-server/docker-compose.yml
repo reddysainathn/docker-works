@@ -1,0 +1,7 @@
+version: '2'
+services:
+    my-server:
+        build: .
+        image: my-server:v3
+        ports:
+            - 80:80
